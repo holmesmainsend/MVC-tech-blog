@@ -1,5 +1,5 @@
 {
-  "name": "just-tech-news",
+  "name": "MVC-tech-blog",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/holmesmainsend/just-tech-news.git"
+    "url": "git+https://github.com/holmesmainsend/MVC-tech-blog.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/holmesmainsend/just-tech-news/issues"
+    "url": "https://github.com/holmesmainsend/MVC-tech-blog/issues"
   },
-  "homepage": "https://github.com/holmesmainsend/just-tech-news#readme",
+  "homepage": "https://github.com/holmesmainsend/MVC-tech-blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "connect-session-sequelize": "^7.1.2",
