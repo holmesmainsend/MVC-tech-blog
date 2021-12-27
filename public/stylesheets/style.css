@@ -176,3 +176,8 @@
     padding: 1%;
     font-size: 110%;
   }
+
+  #post_content {
+    width: 60%;
+    padding: 10px 0 200px 10px;
+  }
