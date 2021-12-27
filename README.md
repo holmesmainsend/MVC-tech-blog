@@ -4,6 +4,8 @@
 
 ![Screenshot of Website](public/MVC_capture.png)
 
+Link to website: https://your-mvc-tech-blog.herokuapp.com/
+
   ## Table of Contents
   * [Description](#description)
   * [Installation](#installation)
