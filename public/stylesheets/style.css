@@ -181,3 +181,7 @@
     width: 60%;
     padding: 10px 0 200px 10px;
   }
+
+  #homepage-link {
+    padding-right: 15px;
+  }
