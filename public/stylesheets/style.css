@@ -6,23 +6,24 @@
     height: 100%;
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
+    font-size: 15px;
+    font-family: "Lucida Console", "Courier New", monospace;
     color: #333;
   }
   
   a {
     text-decoration: none;
-    color: #225ca3;
+    color: red;
     font-weight: bold;
     transition: color .1s;
   }
   
   a:hover {
-    color: #3486eb;
+    color: darkred;
   }
   
   button {
-    background-color: #225ca3;
+    background-color: red;
     border: 0;
     padding: 1%;
     color: white;
@@ -33,7 +34,7 @@
   }
   
   button:hover {
-    background-color: #3486eb;
+    background-color: darkred;
   }
   
   .post-list {
@@ -97,24 +98,25 @@
     padding: 0;
     cursor: pointer;
     text-decoration: none;
-    color: #225ca3;
+    color: red;
     font-size: 100%;
     font-weight: bold;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
     transition: color .1s;
-    margin-left: 16px;
   }
   
   .btn-no-style:hover {
     background: none;
-    color: #3486eb;
+    color: darkred;
   }
   
   .delete-post-btn {
-    background-color: #d41414;
+    background-color: dimgray;
   }
   
   .delete-post-btn:hover {
-    background-color: #ff643d;
+    background-color: black;
   }
   
   .post {
@@ -182,6 +184,18 @@
     padding: 10px 0 200px 10px;
   }
 
-  #homepage-link {
+  #title-link {
+    font-size: 50px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  #nav-link {
     padding-right: 15px;
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  i {
+    font-size: 40px;
+    color: red;
   }

@@ -3,23 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Just Tech News</title>
+    <title>MVC</title>
     <link rel="stylesheet" href="/stylesheets/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
   </head>
 
   <body>
     <div class="wrapper">
       <header>
         <h1>
-          <a href="/">Just Tech News</a>
+          <i class="fas fa-hand-lizard"></i>
+          <a href="/" id="title-link">MVC</a>
         </h1>
         <nav>
-          <a href="/" id="homepage-link">Homepage</a>
+          <a href="/" id="nav-link">Homepage</a>
           {{#if loggedIn}}
-            <a href="/dashboard">Dashboard</a>
+            <a href="/dashboard" id="nav-link">Dashboard</a>
             <button id="logout" class="btn-no-style">Logout</button>
           {{else}}
-            <a href="/login">Login</a>
+            <a href="/login" id="nav-link">Login</a>
           {{/if}}
         </nav>
       </header>
