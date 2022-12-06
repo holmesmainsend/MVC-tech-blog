@@ -5,6 +5,7 @@
 ![Screenshot of Website](public/MVC_capture.png)
 
 Link to website: ~~https://your-mvc-tech-blog.herokuapp.com/~~
+
 Website is currently down due to issues with Heroku
 
   ## Table of Contents
